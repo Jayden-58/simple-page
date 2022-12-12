@@ -1,6 +1,15 @@
 import {Container, Row, Col} from 'reactstrap';
 import jaydenImage from '../app/assets/jayden_image.png';
 import '../App.css';
+import PythonLogo from '../app/assets/coding_logos/python.png'
+import HTMLLogo from '../app/assets/coding_logos/html.png'
+import CSSLogo from '../app/assets/coding_logos/css3.png'
+import JSLogo from '../app/assets/coding_logos/javascript.png'
+import DjangoLogo from '../app/assets/coding_logos/django.png'
+import PostgresLogo from '../app/assets/coding_logos/postgresql.png'
+import ReactLogo from '../app/assets/coding_logos/react.png'
+import DockerLogo from '../app/assets/coding_logos/docker.png'
+import GithubLogo from '../app/assets/coding_logos/github.png'
 const imgSize = {
     maxWidth: 400
 }
@@ -27,13 +36,44 @@ const HomePage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col className='md-4 mt-1' >
+                <Col>
                     <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>Technologies:</h1>
                 </Col>
-                <Col className='md-8 mt-2' >
-                    <p style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            </Row>
+            <Row className='m-5 mb-5'>
+                <Col>
+                    <img style={{width: "10vw"}} src = {JSLogo} alt = "JavascriptLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {HTMLLogo} alt = "HTML5Logo"/>
+                </Col>
+                <Col>
+                <img style={{width: "10vw"}} src = {CSSLogo} alt = "CSSLogo"/>
                 </Col>
             </Row>
+            <Row className='m-5 mb-5'>
+                <Col>
+                    <img style={{width: "10vw"}} src = {PythonLogo} alt = "PythonLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {DjangoLogo} alt = "DjangoLogo"/>
+                </Col>
+                <Col>
+                <img style={{width: "10vw"}} src = {PostgresLogo} alt = "PostgresqlLogo"/>
+                </Col>
+            </Row>
+            <Row className='m-5 mb-5'>
+                <Col>
+                    <img style={{width: "10vw"}} src = {ReactLogo} alt = "ReactLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {DockerLogo} alt = "DockerLogo"/>
+                </Col>
+                <Col>
+                <img style={{width: "10vw"}} src = {GithubLogo} alt = "GithubLogo"/>
+                </Col>
+            </Row>
+            {/* add more later */}
         </Container>
     )
 };

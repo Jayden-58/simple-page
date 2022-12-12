@@ -4,6 +4,7 @@ import ZenvaAcademyLogo from '../app/assets/ZanvaAcedemyLogo.png';
 import LinkedInLearning from '../app/assets/LinkedInLearning.png';
 import NucampLogo from '../app/assets/NucampLogo.png';
 import DocumentBrowser from '../components/DocumentBrowser';
+import { CERTIFICATESNUCAMP } from '../app/shared/CERTIFICATESNUCAMP';
 
 const EducationPage = () => {
     return(
@@ -28,7 +29,7 @@ const EducationPage = () => {
                 </Col>
             </Row>
             <Row>
-                <DocumentBrowser />
+                <DocumentBrowser certificate={CERTIFICATESNUCAMP[0]}/>
             </Row>
         </Container>
     )
