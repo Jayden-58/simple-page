@@ -1,4 +1,6 @@
 import {Container, Row, Col} from 'reactstrap';
+import GameCard from '../components/GameCard';
+import {CERTIFICATESNUCAMP} from '../app/shared/CERTIFICATESNUCAMP'
 
 const GamesPage = () => {
     return(
@@ -14,6 +16,11 @@ const GamesPage = () => {
                 </Col>
                 <Col className='md-6' >
                     <p style = {{marginBottom: 0, paddingBottom: 5, color: 'white'}}>wazzuuuupppp</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col className='col-2'>
+                    <GameCard game={CERTIFICATESNUCAMP[1]}/>
                 </Col>
             </Row>
         </Container>
