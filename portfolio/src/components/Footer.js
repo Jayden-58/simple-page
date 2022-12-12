@@ -23,6 +23,19 @@ import {Link} from 'react-router-dom';
                     </li>
                 </ul>
             </Col>
+            <Col>
+                <p style={{color: 'white'}}>Social Media:</p>
+                <ul style={{marginTop: 0}} className='list-unstyled'>
+                    <li>
+                        <i style={{color: 'white', marginRight:6}} className= 'fa fa-linkedin fa-lg'/>
+                        <a style={{color: 'white'}} href='https://www.linkedin.com/in/jayden-kellar-0a798323b/'>LinkedIn</a>
+                    </li>
+                    <li>
+                        <i style={{color: 'white', marginRight:6}} className= 'fa fa-github fa-lg'/>
+                        <a style={{color: 'white'}} href='https://github.com/Jayden-58'>Github</a>
+                    </li>
+                </ul>
+            </Col>
         </Row>
     </Container>
     </footer>

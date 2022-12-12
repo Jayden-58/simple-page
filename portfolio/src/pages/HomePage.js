@@ -10,7 +10,7 @@ const HomePage = () => {
         <Container fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row>
                 <Col>
-                    <h1 style={{color: 'green',marginTop: 0,fontFamily: 'Source Code Pro'}}>Hello World!</h1>
+                    <h1 style={{color: 'green',marginTop: 0, paddingTop: 10, paddingBottom: 10, fontFamily: 'Source Code Pro'}}>Hello World!</h1>
                 </Col>
             </Row>
             <Row>
@@ -23,12 +23,12 @@ const HomePage = () => {
                     <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>My mission:</h1>
                 </Col>
                 <Col className='md-8 mt-2' >
-                    <p style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+                    <p style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>blblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blaah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blaah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
                 </Col>
             </Row>
             <Row>
                 <Col className='md-4 mt-1' >
-                    <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>My mission:</h1>
+                    <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>Technologies:</h1>
                 </Col>
                 <Col className='md-8 mt-2' >
                     <p style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
