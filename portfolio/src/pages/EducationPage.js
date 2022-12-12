@@ -17,7 +17,7 @@ const EducationPage = () => {
             </Row>
             <Row className='mt-5 pb-5'>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={NucampLogo} alt="Nucamp"/>
+                    <img style={{borderRadius: 100, width: '12vw', border: "1px solid red", boxShadow: "0px 0px 10px 15px #722F37"}} src={NucampLogo} alt="Nucamp"/>
                 </Col>
                 <Col className='col-3'>
                     <img style={{borderRadius: 100, width: '12vw'}} src={LinkedInLearning} alt="LinkedInLearning" />
