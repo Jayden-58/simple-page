@@ -7,30 +7,28 @@ const imgSize = {
     maxWidth: 60
 }
 
-
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <Navbar dark color='primary' style={{background: "black"}} id = 'header' sticky='top' expand='md'>
-        <NavbarBrand href='/'>
-            <img src={jayden_image} style = {imgSize} className='ms-5'/>
+    <Navbar dark style={{background: "black"}} sticky='top' className='navbar-expand-md' expand='md'>
+        <NavbarBrand className='ms-5' href='/'>
+            <img src={jayden_image} style = {imgSize} alt="jklogo" className='float-start' />
         </NavbarBrand>
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
         <Collapse isOpen={menuOpen}navbar>
-          <Nav className = 'ms-auto' navbar style = {{margin: 0, padding:4}}>
+          <Nav className = 'ms-auto' navbar>
           <NavItem>
-              <NavLink className='nav-link' style={{color: '#9E5EFF'}} to='/'>
-                <i/> Home
+              <NavLink className='nav-link' style={{color: '#722F37'}} to='/'>
+                <i className= 'fa fa-home fa-thin'/> Home
               </NavLink>
-              <NavLink className='nav-link' style={{color: '#9E5EFF'}} to='education'>
-                <i className='fa fa-home fa-lg' /> Education
+              <NavLink className='nav-link' style={{color: '#722F37'}} to='education'>
+              <i className='fa fa-book fa-thin' /> Education
               </NavLink>
-              <NavLink className='nav-link' style={{color: '#9E5EFF'}} to='/'>
-                <i className='fa fa-home fa-lg' /> Games
+              <NavLink className='nav-link' style={{color: '#722F37'}} to='games'>
+                <i className='fa fa-gamepad fa-thin' /> Games
               </NavLink>
-              <NavLink className='nav-link' style={{color: '#9E5EFF'}} to='/'>
-                <i className='fa fa-home fa-lg' /> Websites
+              <NavLink className='nav-link' style={{color: '#722F37'}} to='websites'>
+                <i className='fa fa-globe fa-thin' /> Websites
               </NavLink>
             </NavItem>
           </Nav>

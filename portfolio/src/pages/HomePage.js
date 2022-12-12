@@ -2,7 +2,7 @@ import {Container, Row, Col} from 'reactstrap';
 import jaydenImage from '../app/assets/jayden_image.png';
 
 const imgSize = {
-    maxWidth: 320
+    maxWidth: 900
 }
 
 const HomePage = () => {
@@ -15,15 +15,15 @@ const HomePage = () => {
             </Row>
             <Row>
                 <Col>
-                    <img src = {jaydenImage} style = {imgSize}></img>
+                    <img src = {jaydenImage} alt="jaydenkellarimage" style = {imgSize}></img>
                 </Col>
             </Row>
             <Row>
-                <Col className='sm-5'>
-                    <p>wazzuuuupppp</p>
+                <Col className='md-6' >
+                    <p style = {{marginBottom: 0, paddingBottom: 5}}>wazzuuuupppp</p>
                 </Col>
-                <Col className='sm-5'>
-                    <p>wazzuuuupppp</p>
+                <Col className='md-6' >
+                    <p style = {{marginBottom: 0, paddingBottom: 5}}>wazzuuuupppp</p>
                 </Col>
             </Row>
         </Container>
