@@ -2,11 +2,12 @@ import {Container, Row, Col} from 'reactstrap';
 import GameDevTvLogo  from '../app/assets/GameDevTvLogo.png';
 import ZenvaAcademyLogo from '../app/assets/ZanvaAcedemyLogo.png';
 import LinkedInLearning from '../app/assets/LinkedInLearning.png';
-import NucampLogo from '../app/assets/NucampLogo.png'
+import NucampLogo from '../app/assets/NucampLogo.png';
+import DocumentBrowser from '../components/DocumentBrowser';
 
 const EducationPage = () => {
     return(
-        <Container fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
+        <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row>
                 <Col className='col-12'>
                     <h1 style={{marginTop: 0, color: 'white'}}>This is the Education Page</h1>
@@ -25,6 +26,9 @@ const EducationPage = () => {
                 <Col className='col-3'>
                     <img style={{borderRadius: 100, width: '12vw'}} src={ZenvaAcademyLogo} alt="ZenvaAcedemy"/>
                 </Col>
+            </Row>
+            <Row>
+                <DocumentBrowser />
             </Row>
         </Container>
     )

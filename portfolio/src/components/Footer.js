@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
  const Footer = () => {
    return (
-    <footer className = "site-footer" style={{background: "black"}}>
+    <footer className = "site-footer pt-4" style={{background: "black"}}>
     <Container>
         <Row>
             <Col xs={{ size: 4, offset: 1 }} sm='2'>
@@ -24,7 +24,7 @@ import {Link} from 'react-router-dom';
                 </ul>
             </Col>
             <Col>
-                <p style={{color: 'white'}}>Social Media:</p>
+                <h4 style={{color: 'white'}}>Social Media:</h4>
                 <ul style={{marginTop: 0}} className='list-unstyled'>
                     <li>
                         <i style={{color: 'white', marginRight:6}} className= 'fa fa-linkedin fa-lg'/>

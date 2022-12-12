@@ -2,7 +2,7 @@ import {Container, Row, Col} from 'reactstrap';
 
 const GamesPage = () => {
     return(
-        <Container fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
+        <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row>
                 <Col className='col-12'>
                     <h1 style={{marginTop: 0, color: 'white'}}>This is the Games Page</h1>
