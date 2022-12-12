@@ -4,9 +4,10 @@ import ZenvaAcademyLogo from '../app/assets/ZanvaAcedemyLogo.png';
 import LinkedInLearning from '../app/assets/LinkedInLearning.png';
 import NucampLogo from '../app/assets/NucampLogo.png';
 import DocumentBrowser from '../components/DocumentBrowser';
-import { CERTIFICATESNUCAMP } from '../app/shared/CERTIFICATESNUCAMP';
+
 
 const EducationPage = () => {
+
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row>
@@ -29,7 +30,7 @@ const EducationPage = () => {
                 </Col>
             </Row>
             <Row>
-                <DocumentBrowser certificate={CERTIFICATESNUCAMP[0]}/>
+                <DocumentBrowser />
             </Row>
         </Container>
     )
