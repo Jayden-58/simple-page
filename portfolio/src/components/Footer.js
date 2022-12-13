@@ -34,6 +34,10 @@ import {Link} from 'react-router-dom';
                         <i style={{color: 'white', marginRight:6}} className= 'fa fa-github fa-lg'/>
                         <a style={{color: 'white'}} href='https://github.com/Jayden-58'>Github</a>
                     </li>
+                    <li>
+                        <i style={{color: 'white', marginRight:6}} className= 'fa fa-gamepad fa-lg'/>
+                        <a style={{color: 'white'}} href='https://jayden58.itch.io/'>Itch.io</a>
+                    </li>
                 </ul>
             </Col>
         </Row>

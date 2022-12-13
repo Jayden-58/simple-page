@@ -27,15 +27,15 @@ const HomePage = () => {
                     <img src = {jaydenImage} alt="jaydenkellarimage" style = {imgSize}></img>
                 </Col>
             </Row>
-            <Row>
+            <Row className='m-5'>
                 <Col className='md-4 mt-1' >
                     <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>My mission:</h1>
                 </Col>
                 <Col className='md-8 mt-2' >
-                    <p style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>blblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blaah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blaah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+                    <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>Learn as much as I possibly can, and use my knowledge to help people</h1>
                 </Col>
             </Row>
-            <Row>
+            <Row className='mt-5'>
                 <Col>
                     <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5}}>Technologies:</h1>
                 </Col>

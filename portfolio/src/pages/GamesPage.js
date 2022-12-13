@@ -1,6 +1,6 @@
 import {Container, Row, Col} from 'reactstrap';
 import GameCard from '../components/GameCard';
-import {CERTIFICATESNUCAMP} from '../app/shared/CERTIFICATESNUCAMP'
+import { GAMES } from '../app/shared/GAMES';
 
 const GamesPage = () => {
     return(
@@ -10,17 +10,20 @@ const GamesPage = () => {
                     <h1 style={{marginTop: 0, color: 'white'}}>This is the Games Page</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col className='md-6' >
-                    <p style = {{marginBottom: 0, paddingBottom: 5, color: 'white'}}>wazzzzzzupppp</p>
+            <Row className='m-4'>
+                <Col className='col-6'>
+                    <GameCard game={GAMES[0]}/>
                 </Col>
-                <Col className='md-6' >
-                    <p style = {{marginBottom: 0, paddingBottom: 5, color: 'white'}}>wazzuuuupppp</p>
+                <Col className='col-6'>
+                    <GameCard game={GAMES[0]}/>
                 </Col>
             </Row>
-            <Row>
-                <Col className='col-2'>
-                    <GameCard game={CERTIFICATESNUCAMP[1]}/>
+            <Row className='m-4'>
+                <Col className='col-6'>
+                    <GameCard game={GAMES[0]}/>
+                </Col>
+                <Col className='col-6'>
+                    <GameCard game={GAMES[0]}/>
                 </Col>
             </Row>
         </Container>
