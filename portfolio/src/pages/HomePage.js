@@ -10,6 +10,9 @@ import PostgresLogo from '../app/assets/coding_logos/postgresql.png'
 import ReactLogo from '../app/assets/coding_logos/react.png'
 import DockerLogo from '../app/assets/coding_logos/docker.png'
 import GithubLogo from '../app/assets/coding_logos/github.png'
+import SQLiteLogo from '../app/assets/coding_logos/sqllite.png'
+import UnityLogo from '../app/assets/coding_logos/unity.png'
+import cSharpLogo from '../app/assets/coding_logos/c.png'
 const imgSize = {
     maxWidth: 400
 }
@@ -73,7 +76,17 @@ const HomePage = () => {
                 <img style={{width: "10vw"}} src = {GithubLogo} alt = "GithubLogo"/>
                 </Col>
             </Row>
-            {/* add more later */}
+            <Row className='m-5 mb-5'>
+                <Col>
+                    <img style={{width: "10vw"}} src = {SQLiteLogo} alt = "SQLiteLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {UnityLogo} alt = "UnityLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {cSharpLogo} alt = "C#Logo"/>
+                </Col>
+            </Row>
         </Container>
     )
 };
