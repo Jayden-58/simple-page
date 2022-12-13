@@ -17,7 +17,7 @@ import GoogleCloudLogo from '../app/assets/coding_logos/google-cloud.png'
 import AWSIcon from '../app/assets/coding_logos/aws.png'
 import BootstrapLogo from '../app/assets/coding_logos/bootstrap.png'
 const imgSize = {
-    maxWidth: 400
+    maxWidth: '80vw'
 }
 
 const HomePage = () => {

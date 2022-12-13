@@ -1,10 +1,10 @@
 import {Container, Row, Col} from 'reactstrap';
 import {Link} from 'react-router-dom';
-import { selectCertificatesBySchoolId } from '../certificates/certificateSlicer';
+import { selectCertificatesBySchoolId, selectCertificatesBySchoolIdReal } from '../certificates/certificateSlicer';
 
  const DocumentBrowser = () => {
   //const {id, image, name}  = certificate;
-  const certificatesToDisplay = selectCertificatesBySchoolId();
+  const certificatesToDisplay = selectCertificatesBySchoolIdReal('0'); //other certificates are here, but I want to display them when the respective button is clicked
 
   //  return (
   //   <div>

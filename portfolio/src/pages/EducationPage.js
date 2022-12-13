@@ -8,6 +8,11 @@ import DocumentBrowser from '../components/DocumentBrowser';
 
 const EducationPage = () => {
 
+    const changeStyle = () => {
+        //I want to change it so that the icons glow when you click on them. I *Think* it mught be 'usestate'
+        console.log("style changer")
+    }
+
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row>
@@ -20,13 +25,13 @@ const EducationPage = () => {
                     <img style={{borderRadius: 100, width: '12vw', border: "1px solid red", boxShadow: "0px 0px 10px 15px #722F37"}} src={NucampLogo} alt="Nucamp"/>
                 </Col>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={LinkedInLearning} alt="LinkedInLearning" />
+                    <img style={{borderRadius: 100, width: '12vw'}} src={LinkedInLearning} alt="LinkedInLearning" onClick={changeStyle}/>
                 </Col>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={GameDevTvLogo} alt="GameDev.tv"/>
+                    <img style={{borderRadius: 100, width: '12vw'}} src={GameDevTvLogo} alt="GameDev.tv" onClick={changeStyle}/>
                 </Col>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={ZenvaAcademyLogo} alt="ZenvaAcedemy"/>
+                    <img style={{borderRadius: 100, width: '12vw'}} src={ZenvaAcademyLogo} alt="ZenvaAcedemy" onClick={changeStyle}/>
                 </Col>
             </Row>
             <Row>
