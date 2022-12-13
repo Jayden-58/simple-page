@@ -13,6 +13,9 @@ import GithubLogo from '../app/assets/coding_logos/github.png'
 import SQLiteLogo from '../app/assets/coding_logos/sqllite.png'
 import UnityLogo from '../app/assets/coding_logos/unity.png'
 import cSharpLogo from '../app/assets/coding_logos/c.png'
+import GoogleCloudLogo from '../app/assets/coding_logos/google-cloud.png'
+import AWSIcon from '../app/assets/coding_logos/aws.png'
+import BootstrapLogo from '../app/assets/coding_logos/bootstrap.png'
 const imgSize = {
     maxWidth: 400
 }
@@ -85,6 +88,17 @@ const HomePage = () => {
                 </Col>
                 <Col>
                     <img style={{width: "10vw"}} src = {cSharpLogo} alt = "C#Logo"/>
+                </Col>
+            </Row>
+            <Row className='m-5 mb-5'>
+                <Col>
+                    <img style={{width: "10vw"}} src = {GoogleCloudLogo} alt = "GoogleCloudLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {AWSIcon} alt = "AWSLogo"/>
+                </Col>
+                <Col>
+                    <img style={{width: "10vw"}} src = {BootstrapLogo} alt = "BootstrapLogo"/>
                 </Col>
             </Row>
         </Container>
