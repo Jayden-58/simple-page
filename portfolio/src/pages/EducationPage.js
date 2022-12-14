@@ -4,13 +4,32 @@ import ZenvaAcademyLogo from '../app/assets/ZanvaAcedemyLogo.png';
 import LinkedInLearning from '../app/assets/LinkedInLearning.png';
 import NucampLogo from '../app/assets/NucampLogo.png';
 import DocumentBrowser from '../components/DocumentBrowser';
+import { useState } from 'react';
 
 
 const EducationPage = () => {
+    const [school, setSchool] = useState('0')
 
-    const changeStyle = () => {
+    const changeStyle = (id) => {
         //I want to change it so that the icons glow when you click on them. I *Think* it mught be 'usestate'
         console.log("style changer")
+       // setSchool(() = id)
+    }
+
+    const nucamp = () => {
+        setSchool('0')
+    }
+
+    const linkedIn = () => {
+        setSchool('1')
+    }
+
+    const gamedev = () => {
+        setSchool('2')
+    }
+
+    const zenva = () => {
+        setSchool('3')
     }
 
     return(
@@ -22,20 +41,20 @@ const EducationPage = () => {
             </Row>
             <Row className='mt-5 pb-5'>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw', border: "1px solid red", boxShadow: "0px 0px 10px 15px #722F37"}} src={NucampLogo} alt="Nucamp"/>
+                    <img style={{borderRadius: 100, width: '12vw', border: "1px solid red", boxShadow: "0px 0px 10px 15px #722F37"}} src={NucampLogo} alt="Nucamp" onClick={nucamp}/>
                 </Col>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={LinkedInLearning} alt="LinkedInLearning" onClick={changeStyle}/>
+                    <img style={{borderRadius: 100, width: '12vw'}} src={LinkedInLearning} alt="LinkedInLearning" onClick={linkedIn}/>
                 </Col>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={GameDevTvLogo} alt="GameDev.tv" onClick={changeStyle}/>
+                    <img style={{borderRadius: 100, width: '12vw'}} src={GameDevTvLogo} alt="GameDev.tv" onClick={gamedev}/>
                 </Col>
                 <Col className='col-3'>
-                    <img style={{borderRadius: 100, width: '12vw'}} src={ZenvaAcademyLogo} alt="ZenvaAcedemy" onClick={changeStyle}/>
+                    <img style={{borderRadius: 100, width: '12vw'}} src={ZenvaAcademyLogo} alt="ZenvaAcedemy" onClick={zenva}/>
                 </Col>
             </Row>
             <Row>
-                <DocumentBrowser />
+                <DocumentBrowser schoolId={school}/>
             </Row>
         </Container>
     )
