@@ -10,20 +10,20 @@ const GamesPage = () => {
                     <h1 style={{marginTop: 0, color: 'white'}}>This is the Games Page</h1>
                 </Col>
             </Row>
-            <Row className='m-4'>
-                <Col className='col-6'>
+            <Row className='m-4 justify-content-center'>
+                <Col className='col-5 m-5'>
                     <GameCard game={GAMES[0]}/>
                 </Col>
-                <Col className='col-6'>
-                    <GameCard game={GAMES[0]}/>
+                <Col className='col-5 m-5'>
+                    <GameCard game={GAMES[1]}/>
                 </Col>
             </Row>
-            <Row className='m-4'>
-                <Col className='col-6'>
-                    <GameCard game={GAMES[0]}/>
+            <Row className='m-4 justify-content-center'>
+                <Col className='col-5 m-5'>
+                    <GameCard game={GAMES[2]}/>
                 </Col>
-                <Col className='col-6'>
-                    <GameCard game={GAMES[0]}/>
+                <Col className='col-5 m-5'>
+                    <GameCard game={GAMES[3]}/>
                 </Col>
             </Row>
         </Container>
