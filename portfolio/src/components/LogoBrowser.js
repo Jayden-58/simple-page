@@ -1,17 +1,16 @@
 import {Container, Row, Col} from 'reactstrap';
 import {Link} from 'react-router-dom';
-import { selectCertificatesBySchoolId, selectCertificatesBySchoolIdReal } from '../certificates/certificateSlicer';
+import {selectAllLogos} from '../app/logos/logoSlicer'
 
- const DocumentBrowser = () => {
-  //const {id, image, name}  = certificate;
-  const certificatesToDisplay = selectCertificatesBySchoolIdReal(schoolId); //other certificates are here, but I want to display them when the respective button is clicked
+ const LogoBrowser = () => {
+  const logos = selectAllLogos(); //other certificates are here, but I want to display them when the respective button is clicked
 
   return (
-    <Row className='mt-5 ps-5'>{
-        certificatesToDisplay.map((certificates) => {
+    <Row className='mt-5'>{
+        logos.map((logo) => {
             return(
-                <Col className = 'col-lg-3 col-4 mt-4 mb-4' key = {certificates.id}>
-                  <img style = {{width: '20vw', boxShadow: '4px 3px 2px rgb(13, 13, 13)'}} src ={certificates.image}></img>
+                <Col className = ' col-xs-12 col-lg-3 col-md-4 mt-4 mb-4' key = {logo.id}>
+                  <img style = {{width: '10vw'}} src ={logo.image}></img>
                 </Col>
             )
         })
@@ -21,4 +20,4 @@ import { selectCertificatesBySchoolId, selectCertificatesBySchoolIdReal } from '
 
  };
  
- export default DocumentBrowser;
+ export default LogoBrowser;
