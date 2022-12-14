@@ -41,9 +41,12 @@ const EducationPage = () => {
                     <h1 style={{color: 'white'}}>This is the Education Page</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <h1 style={{color: 'white'}}>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</h1>
+            <Row className='m-5 justify-content-center'>
+                <Col className='col-md-4 mt-1 d-flex align-items-center'>
+                    <h1 className='m-5' style = {{color: 'white', marginBottom: 0, paddingBottom: 5, fontFamily: 'Bebas Neue', verticalAlign: 'middle', /*fontSize: 60/ */}}>Education:</h1>
+                </Col>
+                <Col className='col-md-6 d-flex align-items-center' >
+                    <h2 style = {{color: 'white', marginBottom: 0,  fontFamily: 'Bebas Neue', verticalAlign: 'middle'}}>I love to take online courses to learn more about technology. This is a collection of the certificates I've aquired while studying with various online educators.</h2>
                 </Col>
             </Row>
             <Row className='mt-5 pb-5'>
