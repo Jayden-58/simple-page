@@ -1,16 +1,30 @@
-import {Container, Row, Col} from 'reactstrap';
-import {Link} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import {useSpring, animated} from 'react-spring';
+import {Row, Col} from 'reactstrap';
 import {selectAllLogos} from '../app/logos/logoSlicer'
 
  const LogoBrowser = () => {
   const logos = selectAllLogos(); //other certificates are here, but I want to display them when the respective button is clicked
+  const [toggle, setToggle] = useState(false);
+  
+  const logoAnimatedStyle = useSpring({
+    opacity: toggle ? 1 : 0,
+    transform: toggle ? 'scale(1,1)' : 'scale(0,0)',
+    config: {duration: 400}
+});
+
+useEffect(() => {
+    setToggle(true);
+}, []);
 
   return (
     <Row className='mt-5'>{
         logos.map((logo) => {
             return(
                 <Col className = ' col-xs-12 col-lg-3 col-md-4 mt-4 mb-4' key = {logo.id}>
-                  <img style = {{width: '10vw'}} src ={logo.image}></img>
+                  <animated.div style={logoAnimatedStyle}>
+                    <img style = {{width: '10vw'}} src ={logo.image} alt={logo.name}></img>
+                  </animated.div>
                 </Col>
             )
         })

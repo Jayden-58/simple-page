@@ -1,7 +1,7 @@
 import {Container, Row, Col} from 'reactstrap';
 import LogoBrowser from '../components/LogoBrowser';
-import jaydenImage from '../app/assets/jayden_image.png';
 import '../App.css';
+import SelfPortrait from '../components/SelfPortrait';
 
 const HomePage = () => {
     return(
@@ -13,7 +13,7 @@ const HomePage = () => {
             </Row>
             <Row>
                 <Col>
-                    <img src = {jaydenImage} alt="jaydenkellarimage" style = {{width: '33vw', borderRadius: 6, boxShadow: '4px 3px 2px rgb(13, 13, 13)'}}></img> 
+                    <SelfPortrait />
                 </Col>
             </Row>
             <Row className='m-5 justify-content-center'>

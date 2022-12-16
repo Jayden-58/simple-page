@@ -1,5 +1,7 @@
-import {Container, Row, Col, Card, CardBody, CardImg, CardText, Button} from 'reactstrap';
-import recordDatabaseScreenshot from '../app/assets/website_screenshots/recordDBScreenshot.png'
+import {Container, Row, Col} from 'reactstrap';
+import WebsiteCard from '../components/WebsiteCard';
+import { WEBSITES } from '../app/shared/WEBSITES';
+
 
 const WebsitesPage = () => {
     return(
@@ -9,15 +11,17 @@ const WebsitesPage = () => {
                     <h1 style={{marginTop: 0, color: 'white'}}>This is the Websites Page</h1>
                 </Col>
             </Row>
-            <Row className='justify-content-center'>
-                <Col className='col-6'>
-                    <Card style={{ backgroundColor: 'rgba(28,30,31,1)', boxShadow: '4px 3px 2px rgb(13, 13, 13)'}}>
-                        <CardImg src={recordDatabaseScreenshot} alt = "Record Database"/>
-                        <CardBody>
-                            <CardText style={{fontFamily: 'Bebas Neue'}} className='text-light h1'>Record Database</CardText>
-                            <Button style={{backgroundColor: '#722F37'}} href='https://record-db-227h7fvgtq-uc.a.run.app/'>View</Button>
-                        </CardBody>
-                    </Card>
+            <Row className='m-5 justify-content-center'>
+                <Col className='col-md-4 mt-1 d-flex align-items-center'>
+                    <h1 className='m-5' style = {{color: 'white', marginBottom: 0, paddingBottom: 5, fontFamily: 'Bebas Neue', verticalAlign: 'middle', /*fontSize: 60/ */}}>Websites:</h1>
+                </Col>
+                <Col className='col-md-6 d-flex align-items-center' >
+                    <h2 style = {{color: 'white', marginBottom: 0,  fontFamily: 'Bebas Neue', verticalAlign: 'middle'}}>These are some of the Websites I've created! </h2>
+                </Col>
+            </Row>
+            <Row className='justify-content-center pt-5'>
+                <Col className='col-5 p-5'>
+                    <WebsiteCard website={WEBSITES[0]}/>
                 </Col>
             </Row>
         </Container>

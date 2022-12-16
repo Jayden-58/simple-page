@@ -3,8 +3,8 @@ import {Card, CardImg, CardBody, CardTitle, Button} from 'reactstrap';
 import {useSpring, animated} from 'react-spring';
 
 
-const GameCard = ({game}) => {
-    const {name, image, url} = game;
+const WebsiteCard = ({website}) => {
+    const {name, image, url} = website;
     const [toggle, setToggle] = useState(false);
 
     const cardAnimatedStyle = useSpring({
@@ -23,11 +23,11 @@ const GameCard = ({game}) => {
                 <CardImg src={image} alt={name} />
                 <CardBody>
                     <CardTitle style={{fontFamily: 'Bebas Neue'}} className='text-light h1'>{name}</CardTitle>{/*fix this later for responsiveness */}
-                    <Button style={{backgroundColor: '#722F37'}} href={url}>Play!</Button>
+                    <Button style={{backgroundColor: '#722F37'}} href={url}>View</Button>
                 </CardBody>
             </Card>
         </animated.div>
     )
 }
 
-export default GameCard;
+export default WebsiteCard;
