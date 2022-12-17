@@ -5,18 +5,20 @@ import {selectCertificatesBySchoolIdReal} from '../certificates/certificateSlice
 
  const DocumentBrowser = ({schoolId}) => {
   //const {id, image, name}  = certificate;
-  const certificatesToDisplay = selectCertificatesBySchoolIdReal(schoolId); //other certificates are here, but I want to display them when the respective button is clicked
-  const [toggle, setToggle] = useState(false);
+  const certificatesToDisplay = selectCertificatesBySchoolIdReal(schoolId);
+  const [toggle1, setToggle] = useState(false);
 
   const documentAnimatedStyle = useSpring({
-      opacity: toggle ? 1 : 0,
-      transform: toggle ? 'scale(1,1)' : 'scale(1,0)',
+      opacity: toggle1 ? 1 : 0,
+      transform: toggle1 ? 'scale(1,1)' : 'scale(1,0)',
       config: {duration: 400}
   });
 
   useEffect(() => {
-      setToggle(true);
-  }, []);
+      setToggle(false);
+      setTimeout(() => {setToggle(true); },400);
+      console.log('effect')
+  }, [schoolId]);
 
 
   return (

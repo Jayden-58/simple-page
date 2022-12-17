@@ -23,6 +23,9 @@ const WebsitesPage = () => {
                 <Col className='col-5 p-5'>
                     <WebsiteCard website={WEBSITES[0]}/>
                 </Col>
+                <Col className='col-5 p-5'>
+                    <WebsiteCard website={WEBSITES[1]}/>
+                </Col>
             </Row>
         </Container>
     )
