@@ -39,11 +39,11 @@ const EducationPage = () => {
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row className='pt-5'>
                 <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
-                    <img src={lightbulb} style = {{width: '40%', boxShadow: "0px 0px 55px 25px #FFFF00"}} />
+                    <img src={lightbulb} alt="lightbulb" style = {{width: '40%', boxShadow: "0px 0px 55px 25px #FFFF00"}} />
                 </Col>
                 <Col className='col-md-5 col-12 align-middle pt-3'>
                     <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>Education:</h1>
-                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I love to take online courses to learn more about technology. This is a collection of the certificates I've aquired while studying with various online educators.</h2>
+                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I am dedicated to ongoing education and the acquisition of knowledge in the field of technology. This collection represents the certificates I have earned through various online learning programs and courses. I strive to continually expand my understanding and capabilities through dedicated study and the pursuit of new opportunities for learning.</h2>
                 </Col>
             </Row>
             <Row className='mt-5 pb-5'>

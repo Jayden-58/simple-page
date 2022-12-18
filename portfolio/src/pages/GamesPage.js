@@ -5,12 +5,13 @@ import { GAMES } from '../app/shared/GAMES';
 const GamesPage = () => {
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
-            <Row className='p-5 justify-content-center'>
-                <Col className='col-md-4 mt-1 d-flex align-items-center'>
-                    <h1 className='m-5' style = {{color: 'white', marginBottom: 0, paddingBottom: 5, fontFamily: 'Bebas Neue', verticalAlign: 'middle', /*fontSize: 60/ */}}>Games:</h1>
+            <Row className='pt-5'>
+                <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
+                    <img src={'/'} alt="Icon" style = {{width: '40%'}} /> {/*update later*/}
                 </Col>
-                <Col className='col-md-6 d-flex align-items-center' >
-                    <h2 style = {{color: 'white', marginBottom: 0,  fontFamily: 'Bebas Neue', verticalAlign: 'middle'}}>Videogames are what started my passion for technology! Over time, I've had the oppourtunity to make a few. These are some of the videogames I've created! </h2>
+                <Col className='col-md-5 col-12 align-middle pt-3'>
+                    <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>Games:</h1>
+                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>My love for technology began with my passion for videogames. I have been fortunate to have the opportunity to create a few of my own over the years. These are some of the videogames that I have developed and am proud to share with others.</h2>
                 </Col>
             </Row>
             <Row className='m-4 justify-content-center'>

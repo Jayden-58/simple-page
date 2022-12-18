@@ -18,7 +18,7 @@ const HomePage = () => {
                 </Col>
                 <Col className='col-md-5 col-12 align-middle pt-3'>
                     <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>My mission:</h1>
-                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I have a passion for learning new things! My mission is to learn as much as I possibly can, and use that knowledge to build awesome projects that help make the world a better place!</h2>
+                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I am dedicated to continuous learning and personal growth. My mission is to acquire as much knowledge as I can and use it to create meaningful projects that positively impact the world around me.</h2>
                 </Col>
             </Row>
             <Row className='mt-5'>
