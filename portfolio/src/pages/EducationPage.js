@@ -5,6 +5,7 @@ import LinkedInLearning from '../app/assets/LinkedInLearning.png';
 import NucampLogo from '../app/assets/NucampLogo.png';
 import DocumentBrowser from '../components/DocumentBrowser';
 import { useState } from 'react';
+import lightbulb from '../app/assets/other_icons/lightbulb.png'
 
 
 const EducationPage = () => {
@@ -36,12 +37,13 @@ const EducationPage = () => {
 
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
-            <Row className='p-5 justify-content-center'>
-                <Col className='col-md-4 pt-1 d-flex align-items-center'>
-                    <h1 className='m-5' style = {{color: 'white', marginBottom: 0, paddingBottom: 5, fontFamily: 'Bebas Neue', verticalAlign: 'middle', /*fontSize: 60/ */}}>Education:</h1>
+            <Row className='pt-5'>
+                <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
+                    <img src={lightbulb} style = {{width: '40%', boxShadow: "0px 0px 55px 25px #FFFF00"}} />
                 </Col>
-                <Col className='col-md-6 d-flex align-items-center' >
-                    <h2 style = {{color: 'white', marginBottom: 0,  fontFamily: 'Bebas Neue', verticalAlign: 'middle'}}>I love to take online courses to learn more about technology. This is a collection of the certificates I've aquired while studying with various online educators.</h2>
+                <Col className='col-md-5 col-12 align-middle pt-3'>
+                    <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>Education:</h1>
+                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I love to take online courses to learn more about technology. This is a collection of the certificates I've aquired while studying with various online educators.</h2>
                 </Col>
             </Row>
             <Row className='mt-5 pb-5'>

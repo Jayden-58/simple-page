@@ -12,13 +12,13 @@ const HomePage = () => {
                     <h1 style={{color: 'green',marginTop: 0, paddingTop: 10, paddingBottom: 10, fontFamily: 'Source Code Pro', fontSize: 50}}>Hello World!</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col className="ms-0 ps-0">
+            <Row className='pt-5'>
+                <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
                     <SelfPortrait imageId = {0}/>
                 </Col>
-                <Col className='col-md-4 mt pt-5 align-items-center'>
+                <Col className='col-md-5 col-12 align-middle pt-3'>
                     <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>My mission:</h1>
-                    <h2 style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I have a passion for learning new things! My mission is to learn as much as I possibly can, and use that knowledge to build awesome projects that help make the world a better place!</h2>
+                    <h2 className='pt-2' style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I have a passion for learning new things! My mission is to learn as much as I possibly can, and use that knowledge to build awesome projects that help make the world a better place!</h2>
                 </Col>
             </Row>
             <Row className='mt-5'>
