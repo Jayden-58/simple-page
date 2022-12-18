@@ -13,16 +13,12 @@ const HomePage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className="ms-0 ps-0">
                     <SelfPortrait imageId = {0}/>
                 </Col>
-            </Row>
-            <Row className='m-5 justify-content-center'>
-                <Col className='col-md-4 mt-1 d-flex align-items-center'>
-                    <h1 className='m-5' style = {{color: 'white', marginBottom: 0, paddingBottom: 5, fontFamily: 'Bebas Neue', verticalAlign: 'middle', /*fontSize: 60/ */}}>My mission:</h1>
-                </Col>
-                <Col className='col-md-6 d-flex align-items-center' >
-                    <h2 style = {{color: 'white', marginBottom: 0,  fontFamily: 'Bebas Neue', verticalAlign: 'middle'}}>I have a passion for learning new things! My mission is to learn as much as I possibly can, and use that knowledge to build awesome projects that help make the world a better place!</h2>
+                <Col className='col-md-4 mt pt-5 align-items-center'>
+                    <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>My mission:</h1>
+                    <h2 style = {{color: 'white',  fontFamily: 'Bebas Neue'}}>I have a passion for learning new things! My mission is to learn as much as I possibly can, and use that knowledge to build awesome projects that help make the world a better place!</h2>
                 </Col>
             </Row>
             <Row className='mt-5'>

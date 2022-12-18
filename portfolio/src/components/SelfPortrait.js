@@ -17,7 +17,7 @@ const SelfPortrait = () => {
 
     return (
         <animated.div style={portraitAnimatedStyle}>
-            <img src = {JaydenImage} alt="jaydenkellarimage" style = {{width: '33vw', borderRadius: 6, boxShadow: '4px 3px 2px rgb(13, 13, 13)'}}></img> 
+            <img src = {JaydenImage} alt="jaydenkellarimage" style = {{width: '65%', borderRadius: 6, boxShadow: '4px 3px 2px rgb(13, 13, 13)'}}></img> 
         </animated.div>
     )
 }
