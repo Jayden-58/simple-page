@@ -1,6 +1,8 @@
 import {Container, Row, Col} from 'reactstrap';
 import WebsiteCard from '../components/WebsiteCard';
 import { WEBSITES } from '../app/shared/WEBSITES';
+import BigLogo from '../components/BigLogo';
+import { OTHERICONS } from '../app/shared/OTHERICONS';
 
 
 const WebsitesPage = () => {
@@ -8,7 +10,7 @@ const WebsitesPage = () => {
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row className='pt-5'>
                 <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
-                    <img src={'/'} alt="Icon" style = {{width: '40%'}} /> {/*update later*/}
+                    <BigLogo icon={OTHERICONS[2]} />
                 </Col>
                 <Col className='col-md-5 col-12 align-middle pt-3'>
                     <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>Websites:</h1>

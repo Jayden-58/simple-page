@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import {useSpring, animated} from 'react-spring';
 import {Row, Col} from 'reactstrap';
-import {selectAllLogos} from '../app/logos/logoSlicer'
+import {selectAllLogos} from '../slicers/logoSlicer'
 
  const LogoBrowser = () => {
   const logos = selectAllLogos(); //other certificates are here, but I want to display them when the respective button is clicked

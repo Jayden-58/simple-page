@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import {useSpring, animated} from 'react-spring';
 import {Row, Col} from 'reactstrap';
-import {selectCertificatesBySchoolIdReal} from '../certificates/certificateSlicer';
+import {selectCertificatesBySchoolIdReal} from '../slicers/certificateSlicer';
 
 
  const DocumentBrowser = ({schoolId}) => {
@@ -29,7 +29,7 @@ import {selectCertificatesBySchoolIdReal} from '../certificates/certificateSlice
 
   return (
     <Row className='mt-5 ps-5'>{
-        certificatesToDisplay.map((certificates, index) => {
+        certificatesToDisplay.map((certificates) => {
             return(
                 <Col className = 'col-lg-3 col-4 mt-4 mb-4' key = {certificates.id}>
                   <animated.div style={documentAnimatedStyle}>

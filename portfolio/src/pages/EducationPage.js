@@ -5,7 +5,8 @@ import LinkedInLearning from '../app/assets/LinkedInLearning.png';
 import NucampLogo from '../app/assets/NucampLogo.png';
 import DocumentBrowser from '../components/DocumentBrowser';
 import { useState } from 'react';
-import lightbulb from '../app/assets/other_icons/lightbulb.png'
+import BigLogo from '../components/BigLogo';
+import { OTHERICONS } from '../app/shared/OTHERICONS';
 
 
 const EducationPage = () => {
@@ -39,7 +40,7 @@ const EducationPage = () => {
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row className='pt-5'>
                 <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
-                    <img src={lightbulb} alt="lightbulb" style = {{width: '40%', boxShadow: "0px 0px 55px 25px #FFFF00"}} />
+                    <BigLogo icon={OTHERICONS[0]} />
                 </Col>
                 <Col className='col-md-5 col-12 align-middle pt-3'>
                     <h1 style = {{color: 'white', fontFamily: 'Bebas Neue'}}>Education:</h1>
