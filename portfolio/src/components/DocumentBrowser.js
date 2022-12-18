@@ -3,15 +3,17 @@ import {useSpring, animated} from 'react-spring';
 import {Row, Col} from 'reactstrap';
 import {selectCertificatesBySchoolIdReal} from '../certificates/certificateSlicer';
 
+
  const DocumentBrowser = ({schoolId}) => {
   //const {id, image, name}  = certificate;
   const certificatesToDisplay = selectCertificatesBySchoolIdReal(schoolId);
   const [toggle1, setToggle] = useState(false);
 
+
   const documentAnimatedStyle = useSpring({
       opacity: toggle1 ? 1 : 0,
       transform: toggle1 ? 'scale(1,1)' : 'scale(1,0)',
-      config: {duration: 400}
+      config: {duration: 400, delay:20}
   });
 
   useEffect(() => {
@@ -21,9 +23,13 @@ import {selectCertificatesBySchoolIdReal} from '../certificates/certificateSlice
   }, [schoolId]);
 
 
+
+
+
+
   return (
     <Row className='mt-5 ps-5'>{
-        certificatesToDisplay.map((certificates) => {
+        certificatesToDisplay.map((certificates, index) => {
             return(
                 <Col className = 'col-lg-3 col-4 mt-4 mb-4' key = {certificates.id}>
                   <animated.div style={documentAnimatedStyle}>

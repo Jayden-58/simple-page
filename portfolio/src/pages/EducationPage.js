@@ -36,13 +36,8 @@ const EducationPage = () => {
 
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
-            <Row>
-                <Col className='col-12'>
-                    <h1 style={{color: 'white'}}>This is the Education Page</h1>
-                </Col>
-            </Row>
-            <Row className='m-5 justify-content-center'>
-                <Col className='col-md-4 mt-1 d-flex align-items-center'>
+            <Row className='p-5 justify-content-center'>
+                <Col className='col-md-4 pt-1 d-flex align-items-center'>
                     <h1 className='m-5' style = {{color: 'white', marginBottom: 0, paddingBottom: 5, fontFamily: 'Bebas Neue', verticalAlign: 'middle', /*fontSize: 60/ */}}>Education:</h1>
                 </Col>
                 <Col className='col-md-6 d-flex align-items-center' >

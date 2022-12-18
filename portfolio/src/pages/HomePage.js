@@ -3,6 +3,7 @@ import LogoBrowser from '../components/LogoBrowser';
 import '../App.css';
 import SelfPortrait from '../components/SelfPortrait';
 
+
 const HomePage = () => {
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
@@ -13,7 +14,7 @@ const HomePage = () => {
             </Row>
             <Row>
                 <Col>
-                    <SelfPortrait />
+                    <SelfPortrait imageId = {0}/>
                 </Col>
             </Row>
             <Row className='m-5 justify-content-center'>
@@ -29,7 +30,7 @@ const HomePage = () => {
                     <h1 style = {{color: 'white', marginBottom: 0, paddingBottom: 5,  fontFamily: 'Bebas Neue', /*fontSize: 60*/}}>Technologies I Use:</h1>
                 </Col>
             </Row>
-            <LogoBrowser />
+            <LogoBrowser/>
         </Container>
     )
 };
