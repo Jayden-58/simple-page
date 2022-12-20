@@ -21,9 +21,9 @@ useEffect(() => {
     <Row className='mt-5'>{
         logos.map((logo) => {
             return(
-                <Col className='Col-sm-6 col-xs-12 col-lg-4 col-md-4 mt-4 mb-4' key = {logo.id}>
+                <Col className='col-4 col-md-4 mt-4 mb-4' key = {logo.id}>
                   <animated.div style={logoAnimatedStyle}>
-                    <img style = {{width: '7vw'}} src ={logo.image} alt={logo.name}></img>
+                    <img style = {{width: '8vw'}} src ={logo.image} alt={logo.name}></img>
                   </animated.div>
                 </Col>
             )

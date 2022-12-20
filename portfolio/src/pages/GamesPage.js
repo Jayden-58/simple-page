@@ -17,18 +17,18 @@ const GamesPage = () => {
                 </Col>
             </Row>
             <Row className='m-4 justify-content-center'>
-                <Col className='col-5 m-5'>
+                <Col className='col-md-5 col-xs-10 m-5'>
                     <GameCard game={GAMES[0]}/>
                 </Col>
-                <Col className='col-5 m-5'>
+                <Col className='col-md-5 col-xs-10 m-5'>
                     <GameCard game={GAMES[1]}/>
                 </Col>
             </Row>
             <Row className='m-4 justify-content-center'>
-                <Col className='col-5 m-5'>
+                <Col className='col-md-5 col-xs-10 m-5'>
                     <GameCard game={GAMES[2]}/>
                 </Col>
-                <Col className='col-5 m-5'>
+                <Col className=' col-md-5 col-sx-10 m-5'>
                     <GameCard game={GAMES[3]}/>
                 </Col>
             </Row>

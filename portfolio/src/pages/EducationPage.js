@@ -39,7 +39,7 @@ const EducationPage = () => {
     return(
         <Container className='pb-4' fluid style={{background: 'radial-gradient(circle, rgba(69,27,33,1) 25%, rgba(28,30,31,1) 75%)'}}>
             <Row className='pt-5'>
-                <Col className=" col-md-6 col-12 12 ms-0 ps-0 align-text-middle">
+                <Col className=" col-md-6 col-12 ms-0 ps-0 align-text-middle">
                     <BigLogo icon={OTHERICONS[0]} />
                 </Col>
                 <Col className='col-md-5 col-12 align-middle pt-3'>

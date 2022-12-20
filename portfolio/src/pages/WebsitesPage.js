@@ -18,10 +18,10 @@ const WebsitesPage = () => {
                 </Col>
             </Row>
             <Row className='justify-content-center pt-5'>
-                <Col className='col-5 p-5'>
+                <Col className='col-md-5 col-xs-10 p-5'>
                     <WebsiteCard website={WEBSITES[0]}/>
                 </Col>
-                <Col className='col-5 p-5'>
+                <Col className='col-md-5 col-xs-10 p-5'>
                     <WebsiteCard website={WEBSITES[1]}/>
                 </Col>
             </Row>
