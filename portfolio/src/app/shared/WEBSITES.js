@@ -12,6 +12,6 @@ export const WEBSITES = [
         id: 1,
         name: "Jayden's Portfolio Website",
         image: portfolioSiteImage,
-        url: '/',
+        url: '#',
     },
 ]

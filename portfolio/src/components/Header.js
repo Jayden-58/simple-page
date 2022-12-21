@@ -11,7 +11,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <Navbar dark style={{background: "black"}} sticky='top' className='navbar-expand-md navbar-default' expand='md'>
-        <NavbarBrand className='ms-5' href='/'>
+        <NavbarBrand className='ms-5' href="#">
             <img src={jayden_image} style = {imgSize} alt="jklogo" className='float-start' />
             <h1><span style={{color: 'black'}}>__</span>Jayden Kellar</h1>
         </NavbarBrand>
