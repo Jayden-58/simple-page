@@ -17,6 +17,7 @@ import ZenvaFirstUnity from '../assets/zenva_certificates/ZenvaFirstUnity.png';
 import ZenvaJavaFoundations from'../assets/zenva_certificates/ZenvaJavaFoundations.png';
 import ZenvaFirebase from '../assets/zenva_certificates/ZenvaFirebase.png';
 import ZenvaKotlin from '../assets/zenva_certificates/ZenvaKotlin.png';
+import LinkedinLearningRexux from '../assets/linkedin_learning_certificates/LLRedux.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -132,5 +133,11 @@ export const CERTIFICATESNUCAMP = [
         name: 'Zenva: Kotlin',
         image: ZenvaKotlin,
         schoolId: '3',
+    },
+    {
+        id: 19,
+        name: 'LinkedIn Learning: Learning Redux Toolkit',
+        image: LinkedinLearningRexux,
+        schoolId: '1',
     },
 ];

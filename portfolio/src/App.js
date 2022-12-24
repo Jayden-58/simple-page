@@ -29,3 +29,4 @@ function App() {
 export default App;
 
 //to deploy to gh pages use 'npm run deploy'
+//in github pages settings, re-do the custom Url setting after the deployment, (site will be taken down from url on build)
