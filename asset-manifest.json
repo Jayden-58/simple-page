@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.e5c5d54d.js",
+    "main.js": "/static/js/main.1062922d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -31,6 +31,7 @@
     "static/media/LLDatabases.png": "/static/media/LLDatabases.e63b6beb77666ff629e2.png",
     "static/media/LLWebApi.png": "/static/media/LLWebApi.5691548b908847538710.png",
     "static/media/LLGcloud.png": "/static/media/LLGcloud.f8d2cac84cfde3a3bf60.png",
+    "static/media/LLRedux.png": "/static/media/LLRedux.0d25add466b243c02d24.png",
     "static/media/LinkedInLearning.png": "/static/media/LinkedInLearning.70ed522eae89e6ae9dc7.png",
     "static/media/LLDjango.png": "/static/media/LLDjango.0f373ed80e7bad3c8227.png",
     "static/media/GDTVGit.png": "/static/media/GDTVGit.2cdfc25b3efa939d87d1.png",
@@ -56,11 +57,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.e5c5d54d.js.map": "/static/js/main.e5c5d54d.js.map",
+    "main.1062922d.js.map": "/static/js/main.1062922d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.e5c5d54d.js"
+    "static/js/main.1062922d.js"
   ]
 }
