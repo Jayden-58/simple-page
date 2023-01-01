@@ -17,7 +17,8 @@ import ZenvaFirstUnity from '../assets/zenva_certificates/ZenvaFirstUnity.png';
 import ZenvaJavaFoundations from'../assets/zenva_certificates/ZenvaJavaFoundations.png';
 import ZenvaFirebase from '../assets/zenva_certificates/ZenvaFirebase.png';
 import ZenvaKotlin from '../assets/zenva_certificates/ZenvaKotlin.png';
-import LinkedinLearningRexux from '../assets/linkedin_learning_certificates/LLRedux.png';
+import LinkedinLearningRedux from '../assets/linkedin_learning_certificates/LLRedux.png';
+import LinkedInLearningRESTapi from '../assets/linkedin_learning_certificates/LLRESTapi.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -137,7 +138,13 @@ export const CERTIFICATESNUCAMP = [
     {
         id: 19,
         name: 'LinkedIn Learning: Learning Redux Toolkit',
-        image: LinkedinLearningRexux,
+        image: LinkedinLearningRedux,
+        schoolId: '1',
+    },
+    {
+        id: 20,
+        name: 'LinkedIn Learning: Learning Rest Apis',
+        image: LinkedInLearningRESTapi,
         schoolId: '1',
     },
 ];
