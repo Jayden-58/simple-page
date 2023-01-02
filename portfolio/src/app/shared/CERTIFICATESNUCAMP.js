@@ -20,7 +20,7 @@ import ZenvaKotlin from '../assets/zenva_certificates/ZenvaKotlin.png';
 import LinkedinLearningRedux from '../assets/linkedin_learning_certificates/LLRedux.png';
 import LinkedInLearningRESTapi from '../assets/linkedin_learning_certificates/LLRESTapi.png';
 import LinkedinLearningReactStateManagement from '../assets/linkedin_learning_certificates/LLReactStateManagement.png';
-
+import LinkedinLearningReactHooks from '../assets/linkedin_learning_certificates/LLReactHooks.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -153,6 +153,12 @@ export const CERTIFICATESNUCAMP = [
         id: 21,
         name: 'LinkedIn Learning: React State Management',
         image: LinkedinLearningReactStateManagement,
+        schoolId: '1',
+    },
+    {
+        id: 22,
+        name: 'LinkedIn Learning: React Hooks',
+        image: LinkedinLearningReactHooks,
         schoolId: '1',
     },
 ];
