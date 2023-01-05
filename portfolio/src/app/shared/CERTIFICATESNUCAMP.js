@@ -22,7 +22,8 @@ import LinkedInLearningRESTapi from '../assets/linkedin_learning_certificates/LL
 import LinkedinLearningReactStateManagement from '../assets/linkedin_learning_certificates/LLReactStateManagement.png';
 import LinkedinLearningReactHooks from '../assets/linkedin_learning_certificates/LLReactHooks.png';
 import LinkedInLearningCyberSecurityFoundations from '../assets/linkedin_learning_certificates/LLCyberSecurityFoundations.png';
-import LinkedInLearningDevSecOpsFoundations from '../assets/linkedin_learning_certificates/LLDevSecOps.png'
+import LinkedInLearningDevSecOpsFoundations from '../assets/linkedin_learning_certificates/LLDevSecOps.png';
+import LinkedInLearningObjectOrientedDesign from '../assets/linkedin_learning_certificates/LLObjectOrientedDesign.png'
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -173,6 +174,12 @@ export const CERTIFICATESNUCAMP = [
         id: 24,
         name: 'LinkedIn Learning: DevOps Foundations: DevSecOps',
         image: LinkedInLearningDevSecOpsFoundations,
+        schoolId: '1',
+    },
+    {
+        id: 25,
+        name: 'LinkedIn Learning: Programming Foundations: Object Oriented Design',
+        image: LinkedInLearningObjectOrientedDesign,
         schoolId: '1',
     },
 ];
