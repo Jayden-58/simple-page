@@ -25,6 +25,7 @@ import LinkedInLearningCyberSecurityFoundations from '../assets/linkedin_learnin
 import LinkedInLearningDevSecOpsFoundations from '../assets/linkedin_learning_certificates/LLDevSecOps.png';
 import LinkedInLearningObjectOrientedDesign from '../assets/linkedin_learning_certificates/LLObjectOrientedDesign.png';
 import LinkedInLearningDesignPatterns from '../assets/linkedin_learning_certificates/LLDesignPatterns.png';
+import LinkedInLearningCyberSecurityArchitecture from '../assets/linkedin_learning_certificates/LLCyberSecurityArchitecture.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -187,6 +188,12 @@ export const CERTIFICATESNUCAMP = [
         id: 26,
         name: 'LinkedIn Learning: Programming Foundations: Design Patterns',
         image: LinkedInLearningDesignPatterns,
+        schoolId: '1',
+    },
+    {
+        id: 27,
+        name: 'LinkedIn Learning: Cyber Security Foundations: Security Architecture',
+        image: LinkedInLearningCyberSecurityArchitecture,
         schoolId: '1',
     },
 ];
