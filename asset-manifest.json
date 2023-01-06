@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.e503d905.js",
+    "main.js": "/static/js/main.72f3dbfc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -45,6 +45,7 @@
     "static/media/LLReactHooks.png": "/static/media/LLReactHooks.4d8aeec36f88d5d49f61.png",
     "static/media/aws.png": "/static/media/aws.20b8d415a74f4c391b83.png",
     "static/media/LLObjectOrientedDesign.png": "/static/media/LLObjectOrientedDesign.131812407e0f32ca519b.png",
+    "static/media/LLDesignPatterns.png": "/static/media/LLDesignPatterns.d1680719c08e8e74e8b2.png",
     "static/media/google-cloud.png": "/static/media/google-cloud.381e965695ef4a70c4e5.png",
     "static/media/css3.png": "/static/media/css3.e9d28f9786a12afee875.png",
     "static/media/internet.png": "/static/media/internet.4729c0fb54037902b58f.png",
@@ -63,11 +64,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.e503d905.js.map": "/static/js/main.e503d905.js.map",
+    "main.72f3dbfc.js.map": "/static/js/main.72f3dbfc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.e503d905.js"
+    "static/js/main.72f3dbfc.js"
   ]
 }
