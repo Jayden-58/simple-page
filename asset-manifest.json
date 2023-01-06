@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.72f3dbfc.js",
+    "main.js": "/static/js/main.d2227468.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -29,6 +29,7 @@
     "static/media/ZenvaKotlin.png": "/static/media/ZenvaKotlin.0cba8e6a80a74f1f64e3.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ZenvaJavaFoundations.png": "/static/media/ZenvaJavaFoundations.3df19a8f46af882f1648.png",
+    "static/media/LLCyberSecurityArchitecture.png": "/static/media/LLCyberSecurityArchitecture.3157e90917025a82d47f.png",
     "static/media/LLDevSecOps.png": "/static/media/LLDevSecOps.7925b7efbe5bad99ab2b.png",
     "static/media/LLDatabases.png": "/static/media/LLDatabases.e63b6beb77666ff629e2.png",
     "static/media/LLReactStateManagement.png": "/static/media/LLReactStateManagement.4af95dd6bf4c8ced3de4.png",
@@ -64,11 +65,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.72f3dbfc.js.map": "/static/js/main.72f3dbfc.js.map",
+    "main.d2227468.js.map": "/static/js/main.d2227468.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.72f3dbfc.js"
+    "static/js/main.d2227468.js"
   ]
 }
