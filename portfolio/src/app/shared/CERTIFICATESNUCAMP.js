@@ -26,6 +26,7 @@ import LinkedInLearningDevSecOpsFoundations from '../assets/linkedin_learning_ce
 import LinkedInLearningObjectOrientedDesign from '../assets/linkedin_learning_certificates/LLObjectOrientedDesign.png';
 import LinkedInLearningDesignPatterns from '../assets/linkedin_learning_certificates/LLDesignPatterns.png';
 import LinkedInLearningCyberSecurityArchitecture from '../assets/linkedin_learning_certificates/LLCyberSecurityArchitecture.png';
+import NucampReact from '../assets/nucamp_certificates/nucampReactCertificate.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -195,5 +196,11 @@ export const CERTIFICATESNUCAMP = [
         name: 'LinkedIn Learning: Cyber Security Foundations: Security Architecture',
         image: LinkedInLearningCyberSecurityArchitecture,
         schoolId: '1',
+    },
+    {
+        id: 28,
+        name: 'Nucamp frontend web development: react',
+        image: NucampReact,
+        schoolId: '0',
     },
 ];
