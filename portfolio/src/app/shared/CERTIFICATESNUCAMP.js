@@ -27,6 +27,7 @@ import LinkedInLearningObjectOrientedDesign from '../assets/linkedin_learning_ce
 import LinkedInLearningDesignPatterns from '../assets/linkedin_learning_certificates/LLDesignPatterns.png';
 import LinkedInLearningCyberSecurityArchitecture from '../assets/linkedin_learning_certificates/LLCyberSecurityArchitecture.png';
 import NucampReact from '../assets/nucamp_certificates/nucampReactCertificate.png';
+import LinkedInLearningQATesting from '../assets/linkedin_learning_certificates/LLQATesting.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -202,5 +203,11 @@ export const CERTIFICATESNUCAMP = [
         name: 'Nucamp frontend web development: react',
         image: NucampReact,
         schoolId: '0',
+    },
+    {
+        id: 29,
+        name: 'LinkedIn Learning: Programming Foundations: Software Testing/QA',
+        image: LinkedInLearningQATesting,
+        schoolId: '1',
     },
 ];
