@@ -28,6 +28,7 @@ import LinkedInLearningDesignPatterns from '../assets/linkedin_learning_certific
 import LinkedInLearningCyberSecurityArchitecture from '../assets/linkedin_learning_certificates/LLCyberSecurityArchitecture.png';
 import NucampReact from '../assets/nucamp_certificates/nucampReactCertificate.png';
 import LinkedInLearningQATesting from '../assets/linkedin_learning_certificates/LLQATesting.png';
+import LinkedInLearningCyberSecurityThreatLandscape from '../assets/linkedin_learning_certificates/LLCyberSecurityThreatLandscape.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -208,6 +209,12 @@ export const CERTIFICATESNUCAMP = [
         id: 29,
         name: 'LinkedIn Learning: Programming Foundations: Software Testing/QA',
         image: LinkedInLearningQATesting,
+        schoolId: '1',
+    },
+    {
+        id: 30,
+        name: 'LinkedIn Learning: Cybersecurity Threat Landscape',
+        image: LinkedInLearningCyberSecurityThreatLandscape,
         schoolId: '1',
     },
 ];
