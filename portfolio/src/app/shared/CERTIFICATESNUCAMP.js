@@ -30,6 +30,7 @@ import NucampReact from '../assets/nucamp_certificates/nucampReactCertificate.pn
 import LinkedInLearningQATesting from '../assets/linkedin_learning_certificates/LLQATesting.png';
 import LinkedInLearningCyberSecurityThreatLandscape from '../assets/linkedin_learning_certificates/LLCyberSecurityThreatLandscape.png';
 import LinkedInLearningCICD from '../assets/linkedin_learning_certificates/LLCICD.png';
+import LinkedInLearningArtificialIntelligenceFoundationsMachieneLearning from '../assets/linkedin_learning_certificates/LLAIMachieneLearning.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -222,6 +223,12 @@ export const CERTIFICATESNUCAMP = [
         id: 31,
         name: 'LinkedIn Learning: DevOps Foundations: Continuous Delivery/ Continuous Integration',
         image: LinkedInLearningCICD,
+        schoolId: '1',
+    },
+    {
+        id: 33,
+        name: 'LinkedIn Learning: Artificial Intelligence Foundations: Machiene Learning',
+        image: LinkedInLearningArtificialIntelligenceFoundationsMachieneLearning,
         schoolId: '1',
     },
 ];
