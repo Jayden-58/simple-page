@@ -31,6 +31,7 @@ import LinkedInLearningQATesting from '../assets/linkedin_learning_certificates/
 import LinkedInLearningCyberSecurityThreatLandscape from '../assets/linkedin_learning_certificates/LLCyberSecurityThreatLandscape.png';
 import LinkedInLearningCICD from '../assets/linkedin_learning_certificates/LLCICD.png';
 import LinkedInLearningArtificialIntelligenceFoundationsMachieneLearning from '../assets/linkedin_learning_certificates/LLAIMachieneLearning.png';
+import LinkedInLearningArtificialIntelligenceFoundationsThinkingMachienes from '../assets/linkedin_learning_certificates/LLAIThinkingMachienes.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -226,9 +227,15 @@ export const CERTIFICATESNUCAMP = [
         schoolId: '1',
     },
     {
-        id: 33,
+        id: 32,
         name: 'LinkedIn Learning: Artificial Intelligence Foundations: Machiene Learning',
         image: LinkedInLearningArtificialIntelligenceFoundationsMachieneLearning,
+        schoolId: '1',
+    },
+    {
+        id: 33,
+        name: 'LinkedIn Learning: Artificial Intelligence Foundations: Thinking Machienes',
+        image: LinkedInLearningArtificialIntelligenceFoundationsThinkingMachienes,
         schoolId: '1',
     },
 ];
