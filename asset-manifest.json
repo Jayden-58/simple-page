@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.8fc62e33.js",
+    "main.js": "/static/js/main.8aad9864.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -19,10 +19,12 @@
     "static/media/pythonBootcamp.png": "/static/media/pythonBootcamp.6d398e8e30a9354710b0.png",
     "static/media/SQLbootcamp.png": "/static/media/SQLbootcamp.fe4e3bab297f81207e5e.png",
     "static/media/BootstrapBootcamp.png": "/static/media/BootstrapBootcamp.84def7b24ac5ee9f63be.png",
+    "static/media/nu-frontend.png": "/static/media/nu-frontend.09b0e00ada5189213cec.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/postgresql.png": "/static/media/postgresql.f8fb57c403b4dabf2f04.png",
     "static/media/LLCyberSecurityFoundations.png": "/static/media/LLCyberSecurityFoundations.8560927208e6226207f8.png",
     "static/media/LLDevOps.png": "/static/media/LLDevOps.5faec241d6cbfd1f62f8.png",
+    "static/media/nu-react-native.png": "/static/media/nu-react-native.c3f26472236af50624fb.png",
     "static/media/nucampReactCertificate.png": "/static/media/nucampReactCertificate.629b199e1139486061ca.png",
     "static/media/ZenvaFirebase.png": "/static/media/ZenvaFirebase.73eec38e2af886996e2a.png",
     "static/media/ZenvaFirstUnity.png": "/static/media/ZenvaFirstUnity.92912fbbd46a96f4b5f7.png",
@@ -72,11 +74,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.8fc62e33.js.map": "/static/js/main.8fc62e33.js.map",
+    "main.8aad9864.js.map": "/static/js/main.8aad9864.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.8fc62e33.js"
+    "static/js/main.8aad9864.js"
   ]
 }
