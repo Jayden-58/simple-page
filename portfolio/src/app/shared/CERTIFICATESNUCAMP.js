@@ -32,7 +32,10 @@ import LinkedInLearningCyberSecurityThreatLandscape from '../assets/linkedin_lea
 import LinkedInLearningCICD from '../assets/linkedin_learning_certificates/LLCICD.png';
 import LinkedInLearningArtificialIntelligenceFoundationsMachieneLearning from '../assets/linkedin_learning_certificates/LLAIMachieneLearning.png';
 import LinkedInLearningArtificialIntelligenceFoundationsThinkingMachienes from '../assets/linkedin_learning_certificates/LLAIThinkingMachienes.png';
-import LinkedInLearningReactTestingAndDebugging from '../assets/linkedin_learning_certificates/LLReactTestingAndDebugging.png'
+import LinkedInLearningReactTestingAndDebugging from '../assets/linkedin_learning_certificates/LLReactTestingAndDebugging.png';
+import NuCampReactNative from '../assets/nucamp_certificates/nu-react-native.png';
+import NuCampFrontEnd from '../assets/nucamp_certificates/nu-frontend.png';
+
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -244,5 +247,17 @@ export const CERTIFICATESNUCAMP = [
         name: 'LinkedIn Learning: React: Testing and Debugging',
         image: LinkedInLearningReactTestingAndDebugging,
         schoolId: '1',
+    },
+    {
+        id: 35,
+        name: 'NuCamp: React Native',
+        image: NuCampReactNative,
+        schoolId: '0',
+    },
+    {
+        id: 36,
+        name: 'NuCamp: FrontEnd Development Bootcamp',
+        image: NuCampFrontEnd,
+        schoolId: '0',
     },
 ];
