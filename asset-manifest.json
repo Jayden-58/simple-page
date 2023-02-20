@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.8aad9864.js",
+    "main.js": "/static/js/main.bc47bc58.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -36,6 +36,7 @@
     "static/media/LLAIMachieneLearning.png": "/static/media/LLAIMachieneLearning.2063d806866fb04c3f97.png",
     "static/media/LLCyberSecurityArchitecture.png": "/static/media/LLCyberSecurityArchitecture.3157e90917025a82d47f.png",
     "static/media/LLQATesting.png": "/static/media/LLQATesting.fbd6ed124eb3491f6761.png",
+    "static/media/LinkedInLearningTestingTechniques.png": "/static/media/LinkedInLearningTestingTechniques.5c88d08eb747c6b26002.png",
     "static/media/LLDevSecOps.png": "/static/media/LLDevSecOps.7925b7efbe5bad99ab2b.png",
     "static/media/LLDatabases.png": "/static/media/LLDatabases.e63b6beb77666ff629e2.png",
     "static/media/LLReactTestingAndDebugging.png": "/static/media/LLReactTestingAndDebugging.563cf33e7fbf79f9c161.png",
@@ -74,11 +75,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.8aad9864.js.map": "/static/js/main.8aad9864.js.map",
+    "main.bc47bc58.js.map": "/static/js/main.bc47bc58.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.8aad9864.js"
+    "static/js/main.bc47bc58.js"
   ]
 }
