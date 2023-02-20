@@ -35,6 +35,7 @@ import LinkedInLearningArtificialIntelligenceFoundationsThinkingMachienes from '
 import LinkedInLearningReactTestingAndDebugging from '../assets/linkedin_learning_certificates/LLReactTestingAndDebugging.png';
 import NuCampReactNative from '../assets/nucamp_certificates/nu-react-native.png';
 import NuCampFrontEnd from '../assets/nucamp_certificates/nu-frontend.png';
+import LinkedInLearningTestTechniques from '../assets/linkedin_learning_certificates/LinkedInLearningTestingTechniques.png';
 
 
 export const CERTIFICATESNUCAMP = [
@@ -259,5 +260,11 @@ export const CERTIFICATESNUCAMP = [
         name: 'NuCamp: FrontEnd Development Bootcamp',
         image: NuCampFrontEnd,
         schoolId: '0',
+    },
+    {
+        id: 37,
+        name: 'LinkedIn Learning: Software testing foundations: Test Techniques',
+        image: LinkedInLearningTestTechniques,
+        schoolId: '1',
     },
 ];
