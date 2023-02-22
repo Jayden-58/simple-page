@@ -36,6 +36,7 @@ import LinkedInLearningReactTestingAndDebugging from '../assets/linkedin_learnin
 import NuCampReactNative from '../assets/nucamp_certificates/nu-react-native.png';
 import NuCampFrontEnd from '../assets/nucamp_certificates/nu-frontend.png';
 import LinkedInLearningTestTechniques from '../assets/linkedin_learning_certificates/LinkedInLearningTestingTechniques.png';
+import LinkedInLearningThreeJs from '../assets/linkedin_learning_certificates/LLThreeJs.png';
 
 
 export const CERTIFICATESNUCAMP = [
@@ -265,6 +266,12 @@ export const CERTIFICATESNUCAMP = [
         id: 37,
         name: 'LinkedIn Learning: Software testing foundations: Test Techniques',
         image: LinkedInLearningTestTechniques,
+        schoolId: '1',
+    },
+    {
+        id: 38,
+        name: 'LinkedIn Learning: Learning 3D Graphics on the Web with Three.js',
+        image: LinkedInLearningThreeJs,
         schoolId: '1',
     },
 ];
