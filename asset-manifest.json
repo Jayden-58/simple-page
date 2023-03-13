@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.97d964bc.js",
+    "main.js": "/static/js/main.42b7f073.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -26,6 +26,7 @@
     "static/media/LLDevOps.png": "/static/media/LLDevOps.5faec241d6cbfd1f62f8.png",
     "static/media/nu-react-native.png": "/static/media/nu-react-native.c3f26472236af50624fb.png",
     "static/media/nucampReactCertificate.png": "/static/media/nucampReactCertificate.629b199e1139486061ca.png",
+    "static/media/nu-fullstack.png": "/static/media/nu-fullstack.50422aa257ef3c8fb534.png",
     "static/media/ZenvaFirebase.png": "/static/media/ZenvaFirebase.73eec38e2af886996e2a.png",
     "static/media/ZenvaFirstUnity.png": "/static/media/ZenvaFirstUnity.92912fbbd46a96f4b5f7.png",
     "static/media/react.png": "/static/media/react.222b46ec12ee705ead71.png",
@@ -34,6 +35,7 @@
     "static/media/ZenvaJavaFoundations.png": "/static/media/ZenvaJavaFoundations.3df19a8f46af882f1648.png",
     "static/media/LLCICD.png": "/static/media/LLCICD.a165e27d0bff1e0a8bc0.png",
     "static/media/LLAIMachieneLearning.png": "/static/media/LLAIMachieneLearning.2063d806866fb04c3f97.png",
+    "static/media/nu-mongo.png": "/static/media/nu-mongo.2e15bea9567b38f2cae7.png",
     "static/media/LLCyberSecurityArchitecture.png": "/static/media/LLCyberSecurityArchitecture.3157e90917025a82d47f.png",
     "static/media/LLQATesting.png": "/static/media/LLQATesting.fbd6ed124eb3491f6761.png",
     "static/media/LinkedInLearningTestingTechniques.png": "/static/media/LinkedInLearningTestingTechniques.5c88d08eb747c6b26002.png",
@@ -76,11 +78,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.97d964bc.js.map": "/static/js/main.97d964bc.js.map",
+    "main.42b7f073.js.map": "/static/js/main.42b7f073.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.97d964bc.js"
+    "static/js/main.42b7f073.js"
   ]
 }
