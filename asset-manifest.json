@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.42b7f073.js",
+    "main.js": "/static/js/main.d5cf039a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -44,6 +44,7 @@
     "static/media/LLReactTestingAndDebugging.png": "/static/media/LLReactTestingAndDebugging.563cf33e7fbf79f9c161.png",
     "static/media/LLReactStateManagement.png": "/static/media/LLReactStateManagement.4af95dd6bf4c8ced3de4.png",
     "static/media/LLWebApi.png": "/static/media/LLWebApi.5691548b908847538710.png",
+    "static/media/LLLearningKubernetes.png": "/static/media/LLLearningKubernetes.02f7660687ab27013232.png",
     "static/media/LLGcloud.png": "/static/media/LLGcloud.f8d2cac84cfde3a3bf60.png",
     "static/media/LLRedux.png": "/static/media/LLRedux.0d25add466b243c02d24.png",
     "static/media/LLRESTapi.png": "/static/media/LLRESTapi.733fac12903b26ccf6af.png",
@@ -78,11 +79,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.42b7f073.js.map": "/static/js/main.42b7f073.js.map",
+    "main.d5cf039a.js.map": "/static/js/main.d5cf039a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.42b7f073.js"
+    "static/js/main.d5cf039a.js"
   ]
 }
