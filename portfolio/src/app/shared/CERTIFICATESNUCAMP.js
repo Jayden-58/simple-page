@@ -39,6 +39,7 @@ import LinkedInLearningTestTechniques from '../assets/linkedin_learning_certific
 import LinkedInLearningThreeJs from '../assets/linkedin_learning_certificates/LLThreeJs.png';
 import NuCampMongo from '../assets/nucamp_certificates/nu-mongo.png';
 import NuCampFullstack from '../assets/nucamp_certificates/nu-fullstack.png';
+import LinkedInLearningLearningKubernetes from '../assets/linkedin_learning_certificates/LLLearningKubernetes.png';
 
 
 export const CERTIFICATESNUCAMP = [
@@ -287,5 +288,11 @@ export const CERTIFICATESNUCAMP = [
         name: 'Jayden Kellar Nucamp: Fullstack Development',
         image: NuCampFullstack,
         schoolId: '0',
+    },
+    {
+        id: 37,
+        name: 'Jayden Kellar LinkedIn Learning: Learning Kubernetes',
+        image: LinkedInLearningLearningKubernetes,
+        schoolId: '1',
     },
 ];
