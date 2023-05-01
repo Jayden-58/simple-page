@@ -40,7 +40,8 @@ import LinkedInLearningThreeJs from '../assets/linkedin_learning_certificates/LL
 import NuCampMongo from '../assets/nucamp_certificates/nu-mongo.png';
 import NuCampFullstack from '../assets/nucamp_certificates/nu-fullstack.png';
 import LinkedInLearningLearningKubernetes from '../assets/linkedin_learning_certificates/LLLearningKubernetes.png';
-import UdemyGoCertificate from '../assets/udemy_certificates/udemy_go.png'
+import UdemyGoCertificate from '../assets/udemy_certificates/udemy_go.png';
+import LinkedInLearningLearningVue from '../assets/linkedin_learning_certificates/LLLearningVue.png';
 
 
 export const CERTIFICATESNUCAMP = [
@@ -301,5 +302,11 @@ export const CERTIFICATESNUCAMP = [
         name: "Jayden Kellar Udemy: Go: The Complete Developer's Guide (Golang)",
         image: UdemyGoCertificate,
         schoolId: '4',
+    },
+    {
+        id: 43,
+        name: "Jayden Kellar LinkedIn Learning: Learning Vue.js",
+        image: LinkedInLearningLearningVue,
+        schoolId: '1',
     },
 ];
