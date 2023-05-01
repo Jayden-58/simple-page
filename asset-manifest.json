@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.67a9802b.js",
+    "main.js": "/static/js/main.86621332.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -63,6 +63,7 @@
     "static/media/LLThreeJs.png": "/static/media/LLThreeJs.dda5a8abd746359090a2.png",
     "static/media/LLDesignPatterns.png": "/static/media/LLDesignPatterns.d1680719c08e8e74e8b2.png",
     "static/media/LLCyberSecurityThreatLandscape.png": "/static/media/LLCyberSecurityThreatLandscape.3a31c03cbb7d8ccce1da.png",
+    "static/media/LLLearningVue.png": "/static/media/LLLearningVue.fc6538bba5f416b0f029.png",
     "static/media/google-cloud.png": "/static/media/google-cloud.381e965695ef4a70c4e5.png",
     "static/media/css3.png": "/static/media/css3.e9d28f9786a12afee875.png",
     "static/media/internet.png": "/static/media/internet.4729c0fb54037902b58f.png",
@@ -81,11 +82,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.67a9802b.js.map": "/static/js/main.67a9802b.js.map",
+    "main.86621332.js.map": "/static/js/main.86621332.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.67a9802b.js"
+    "static/js/main.86621332.js"
   ]
 }
