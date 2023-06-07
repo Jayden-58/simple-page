@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9494136a.css",
-    "main.js": "/static/js/main.a22dff8d.js",
+    "main.js": "/static/js/main.68834fd6.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jayden_image.png": "/static/media/jayden_image.0ee1f723dd379d8f69ce.png",
     "static/media/Screenshot2.png": "/static/media/Screenshot2.3c2b0793351f81e49133.png",
@@ -9,6 +9,7 @@
     "static/media/Screenshot3.png": "/static/media/Screenshot3.f1c61629586ca338a2f9.png",
     "static/media/PortfolioScreenshot.png": "/static/media/PortfolioScreenshot.7659429b8f2ec779dd00.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/JaydenKellarUdemyVueCertificate.png": "/static/media/JaydenKellarUdemyVueCertificate.16676736fdc704d899c1.png",
     "static/media/Screenshot6.png": "/static/media/Screenshot6.bd2d53fa6d36efa0aac4.png",
     "static/media/recordDBScreenshot.png": "/static/media/recordDBScreenshot.823a7167e6459436eddf.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -83,11 +84,11 @@
     "static/media/videogame.png": "/static/media/videogame.81675d86ae255796ed93.png",
     "index.html": "/index.html",
     "main.9494136a.css.map": "/static/css/main.9494136a.css.map",
-    "main.a22dff8d.js.map": "/static/js/main.a22dff8d.js.map",
+    "main.68834fd6.js.map": "/static/js/main.68834fd6.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9494136a.css",
-    "static/js/main.a22dff8d.js"
+    "static/js/main.68834fd6.js"
   ]
 }
