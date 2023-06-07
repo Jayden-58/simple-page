@@ -43,7 +43,7 @@ import LinkedInLearningLearningKubernetes from '../assets/linkedin_learning_cert
 import UdemyGoCertificate from '../assets/udemy_certificates/udemy_go.png';
 import LinkedInLearningLearningVue from '../assets/linkedin_learning_certificates/LLLearningVue.png';
 import LinkedInLearningPromptEngineering from '../assets/linkedin_learning_certificates/LL_prompt.png';
-
+import UdemyVueCertificate from '../assets/udemy_certificates/JaydenKellarUdemyVueCertificate.png';
 
 export const CERTIFICATESNUCAMP = [
     {
@@ -315,5 +315,11 @@ export const CERTIFICATESNUCAMP = [
         name: "Jayden Kellar LinkedIn Learning: Prompt Engineering",
         image: LinkedInLearningPromptEngineering,
         schoolId: '1',
+    },
+    {
+        id: 45,
+        name: "Jayden Kellar Udemy: Vue JS Essentials with Vuex and Vue Router",
+        image: UdemyVueCertificate,
+        schoolId: '4',
     },
 ];
